@@ -1,0 +1,78 @@
+#Left{
+    display: flex;
+    margin-left:5px;
+
+}
+
+h3{
+    margin-top:10px;
+    margin-left: 20px;
+}
+
+#Menubar{
+    width:40%;
+    margin-left: 300px;
+    margin-top: 5px;
+    }
+
+#Menubar ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top:none;
+    list-style: none;
+    cursor: pointer;
+}
+
+#Menubar ul li:hover{
+    color: orange;
+    border-bottom: 2px;
+
+}
+
+.login{
+    display: flex;
+    margin-left:5px;
+}
+
+.login ul{
+
+    margin-left: 150px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-top:none;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+#login{
+    color:black;
+    background-color:white;
+    opacity : 0.9;
+    padding:10px;
+    cursor: pointer;
+    border:1px none;
+    border-radius:50px;
+    margin-right: 12px;
+}
+
+#register{
+    color:white;
+    background-color:black;
+    opacity : 0.9;
+    border-radius:50px;
+    padding:10px;
+    cursor: pointer; 
+
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    margin-left:12px;
+
+}
