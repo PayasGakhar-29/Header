@@ -1,3 +1,8 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
 #Left{
     display: flex;
     margin-left:5px;
