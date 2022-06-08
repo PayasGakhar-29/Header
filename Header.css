@@ -2,10 +2,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-
+    
 #Left{
-    display: flex;
-    margin-left:5px;
+display: flex;
+margin-left:5px;
 
 }
 
@@ -76,8 +76,6 @@ img{
     height: 50px;
     width: 50px;
     border-radius: 100px;
-    -webkit-filter: invert(1);
-    filter: invert(1);
     margin-left:12px;
 
 }
