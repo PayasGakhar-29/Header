@@ -1,5 +1,5 @@
 *{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Inter', sans-serif;
 
 }
     
@@ -78,4 +78,28 @@ img{
     border-radius: 100px;
     margin-left:12px;
 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.Logo button{
+    background-color: orange;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    margin-top:9px;
+    border-color: orange;
+}
+
+.Call button{
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    margin-top:9px;
+    border-color: orange;
+    margin-left: 5px;
 }
