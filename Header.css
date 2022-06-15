@@ -2,36 +2,39 @@
     font-family: 'Inter', sans-serif;
 
 }
-    
-#Left{
-display: flex;
-margin-left:5px;
-
-}
-
-h3{
-    margin-top:10px;
-    margin-left: 20px;
-}
-
-#Menubar{
-    width:40%;
-    margin-left: 300px;
-    margin-top: 5px;
-    }
-
-#Menubar ul{
+.main{
+    display:flex;
+}  
+.Flexbox1{
     display: flex;
+}
+
+.Flexbox1 H3{
+    margin-left:10px;
+}
+
+#Flexbox2{
+    width : 40%;
+    margin:auto;
+}
+#Flexbox2 ul{
+    display : flex;
     justify-content: space-between;
-    margin-top:none;
+    align-items: center;
     list-style: none;
     cursor: pointer;
 }
 
-#Menubar ul li:hover{
-    color: orange;
-    border-bottom: 2px;
 
+#Flexbox2 ul li:hover{
+    color: orange;
+    border-bottom: 2px orange;
+
+}
+
+.Flexbox3{
+    display:flex;
+    margin-right: 20px;
 }
 
 .login{
@@ -41,7 +44,7 @@ h3{
 
 .login ul{
 
-    margin-left: 150px;
+    /*margin-left: 150px;*/
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
@@ -72,13 +75,6 @@ h3{
 
 }
 
-img{
-    height: 50px;
-    width: 50px;
-    border-radius: 100px;
-    margin-left:12px;
-
-}
 
 a{
     text-decoration: none;
@@ -87,19 +83,20 @@ a{
 
 .Logo button{
     background-color: orange;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 100px;
     margin-top:9px;
     border-color: orange;
+    margin-left: 12px;
 }
 
 .Call button{
     background-color: orange;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-radius: 100px;
-    margin-top:9px;
     border-color: orange;
-    margin-left: 5px;
+    margin-left: 9px;
+    margin-top: 5px;
 }
