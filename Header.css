@@ -89,6 +89,7 @@ a{
     margin-top:9px;
     border-color: orange;
     margin-left: 12px;
+    border-color: transparent;
 }
 
 .Call button{
@@ -99,4 +100,5 @@ a{
     border-color: orange;
     margin-left: 9px;
     margin-top: 5px;
+    border-color: transparent;
 }
